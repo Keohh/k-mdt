@@ -1940,8 +1940,8 @@ end
 function GetPlayerPropertiesByCitizenId(citizenid)
     local properties = {}
 
-    local result = MySQL.Sync.fetchAll("SELECT * FROM properties WHERE owner_citizenid = @citizenid", {
-        ['@citizenid'] = citizenid
+    local result = MySQL.Sync.fetchAll("SELECT * FROM apartments WHERE citizenid", {
+        ['citizenid'] = citizenid
     })
 
     if result and #result > 0 then

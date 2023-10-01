@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
 
 :root {
     --color-1: #1E3955;
@@ -14,13 +15,13 @@
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif !important;
     overflow: hidden;
     display: none;
 }
 
 textarea {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif !important;
 }
 
 ::-webkit-scrollbar {
@@ -5925,7 +5926,7 @@ span.tag-reports-input[contenteditable]:empty::before {
     outline: none;
     font-size: 1.2vh;
     color: rgb(255, 255, 255);
-    font-family: Roboto, sans-serif;
+    font-family: 'Oswald';
     font-style: normal;
     font-weight: normal;
     margin-left: 1vh;

@@ -3841,17 +3841,17 @@ $(document).ready(() => {
   });
   const customThemes = {
     lspd: {
-      color1: "#1E3955",
-      color2: "#213f5f",
-      color3: "#2C537B",
-      color4: "#23405E",
+      color1: "#070e15",
+      color2: "#112030",
+      color3: "#101d2b",
+      color4: "#101d2b",
       color5: "#152638",
       color6: "#121f2c",
       color7: "rgb(28, 54, 82)",
-      color8: "#2554cc",
+      color8: "#101d2b",
       color9: "#6E707C",
       color10: "#8F741B",
-      image: "img/LSPD.webp",
+      image: "img/OIP2.png",
       name: "LOS SANTOS POLICE",
     },
     bcso: {
