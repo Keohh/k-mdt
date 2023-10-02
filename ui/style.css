@@ -1193,6 +1193,23 @@ a {
     background-color: rgba(0, 0, 0, 0);
 }
 
+.manage-profile-dna {
+    color: white;
+    margin-left: 10px;
+    font-size: 15px;
+    user-select: none;
+}
+
+.manage-profile-dna-input {
+    border: none;
+    outline: none;
+    margin-left: 2.5px;
+    font-size: 16px;
+    margin-top: 2px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+}
+
 .manage-profile-phonenumber {
     color: white;
     margin-left: 10px;

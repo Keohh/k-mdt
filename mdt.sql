@@ -7,9 +7,14 @@ CREATE TABLE IF NOT EXISTS `mdt_data` (
   `jobtype` VARCHAR(25) DEFAULT 'police',
   `pfp` TEXT DEFAULT NULL,
   `fingerprint` VARCHAR(50) DEFAULT NULL,
+  `dna` VARCHAR(50) DEFAULT NULL,
   PRIMARY KEY (`cid`),
   KEY `id` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+
+
+
 
 CREATE TABLE IF NOT EXISTS `mdt_bulletin` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
